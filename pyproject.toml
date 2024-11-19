@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openai_semaphore_client"
+version = "0.1.0"
+authors = [
+    { name = "Giuseppe Guarino", email = "gmguarino1@gmail.com" },
+]
+description = "Utility package to connect to OpenAI using a semaphored async client"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=2.0.0",
+    "openai>=1.0.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gmguarino/openai-semaphore-client"
+"Bug Tracker" = "https://github.com/gmguarino/openai-semaphore-client/issues"
